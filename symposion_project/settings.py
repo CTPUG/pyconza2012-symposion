@@ -131,6 +131,8 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "pinax.core.context_processors.pinax_settings",
     
     "pinax.apps.account.context_processors.account",
+
+    "menu.context_processors.menuitems",
 ]
 
 INSTALLED_APPS = [
@@ -160,6 +162,7 @@ INSTALLED_APPS = [
     "boxes",
     "sorl.thumbnail",
     "metron",
+    "mptt",
     
     # Pinax
     "pinax.apps.account",
@@ -174,6 +177,7 @@ INSTALLED_APPS = [
     
     # project
     "about",
+    "menu",
 ]
 
 FIXTURE_DIRS = [

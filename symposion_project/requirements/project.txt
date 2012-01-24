@@ -23,3 +23,4 @@ django-boxes==1.0b1.dev1005
 metron==0.1
 markdown==2.1.0
 django-markitup==1.0.0
+django-mptt==0.5.2
