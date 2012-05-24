@@ -53,13 +53,6 @@
             $('#preview').click(function() {
                 var raw = $("#id_abstract").val();
                 $.facebox.loading();
-                $.post(
-                    '{% url creole_preview %}',
-                    {raw: raw},
-                    function(data) {
-                        $.facebox(data)
-                    }
-                );
                 return false;
             });
         });
